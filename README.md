@@ -1,14 +1,15 @@
-## Software Frameworks
+ï»¿## Software Frameworks
 
-2012'de açılan benzeri dersin web sayfası: (içerik biraz değişebilir)
+2012'de aÃ§Ä±lan benzeri dersin web sayfasÄ±: (iÃ§erik biraz deÄŸiÅŸebilir)
 http://mimoza.marmara.edu.tr/~maeyler/course/cse495
 
-*Derse devam ve düzenli ödev yapmek gerekecek*
+*Derse devam ve dÃ¼zenli Ã¶dev yapmek gerekecek*
 
 ### Most Important Java Frameworks
-* Collections (List, Set, Map) java.util
-* I/O (Streams and Readers) java.io
-* GUI (JComponent) javax.swing
+* Collections (List, Set, Map) -- java.util
+* Threads & Time measurement -- java.lang
+* I/O (Streams and Readers) -- java.io
+* GUI (JComponent) -- javax.swing
 * Image processing -- java.awt.image
 
 *This page was made by* [Dillinger](http://dillinger.io/)

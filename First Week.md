@@ -1,6 +1,6 @@
 ## First Week
 
-* Study [Small-Simple-Safe](http://eyler.blogspot.com.tr/2004/12/neden-java.html) web site, download SSS,
+* Study [Small-Simple-Safe](http://mimoza.marmara.edu.tr/~maeyler/course/cse495) web site, download SSS,
 and run `Chooser.runTeacher("String")`
 * Read  http://eyler.blogspot.com.tr/2004/12/neden-java.html
 * Select the attached file, convert it to URL, and
