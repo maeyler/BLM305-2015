@@ -5,8 +5,6 @@ GitHub kullanmak için üç önemli sebep:
 * Otomatik sürüm kontrolü ve koordineli takım çalışması imkanı
 * Programcılar için özgeçmişin önemli bir parçası
 
-https://guides.github.com/introduction/getting-your-project-on-github/
-
 Git'in akış ve dallanma mantığını anlamak için iyi bir başlangıç [burada](https://guides.github.com/introduction/flow/)
 
 ### GitHub Desktop
@@ -20,14 +18,14 @@ Mac ve Windows için yazılmış bu program ile Git kullanmak çok kolaylaştı
 * "Uncommitted Changes" üstünde tıklayın, yeni bir isim ile `Commit` düğmesine basın
 * `Publish` düğmesine basarak kendi GitHub hesabınıza ekleyin
 
-İşte bitti, projemiz hem yerel diskte hem de GitHub repository'de duruyor
+İşimiz üç adımda bitti, projemiz hem yerel diskte hem de GitHub repository'de duruyor
 * Bunlardan biri değişince, `Sync` düğmesine basmak gerekiyor  **<-- Bu adım otomatik değil**
 
 ### Git CLI
 
 Desktop programı öncesinde, bu adımları *Command line* içinde lokal klasör altında `git` komutu ile yapmak gerekiyordu
 
-Her işleme karşı gelen `git` komutu ile işin ne kadar basitleştiğini görebilirsiniz:
+Her işleme karşı gelen `git` komutu ile sürecin ne kadar basitleştiğini görebilirsiniz:
 * Klasörü programın açık penceresine sürükleyin   `git init`
 * "Uncommitted Changes" üstünde tıklayın   `git add *` (tam bunu yapmıyor)
 * ... yeni bir isim ile `Commit` düğmesine basın  `git commit -m "yeni bir isim"`
@@ -46,5 +44,6 @@ ama Desktop programı normal bir kullanıcının bütün ihtiyacını karşılı
 * desktop.github.com
 * guides.github.com
 * guides.github.com/introduction/flow
+* guides.github.com/introduction/getting-your-project-on-github
 * try.github.io
-* git-scm.com/book/en/v2
+
