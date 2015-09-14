@@ -25,7 +25,10 @@ Mac ve Windows için yazılmış bu program ile Git kullanmak çok kolaylaştı
 
 HTML karmaşasını en sık kullanılan komutlarıyla basitleştiren 
 [MD formatını](https://guides.github.com/features/mastering-markdown/#examples) on dakikada öğrenmek ister misiniz?
-![](images/examples.PNG)
+
+![örnekler sayfası](images/examples.PNG)
+
+Markdown denemeleriniz için [bir çevirmen](http://dillinger.io/)
 
 ### Git CLI
 
@@ -52,6 +55,7 @@ ama Desktop programı normal bir kullanıcının bütün ihtiyacını karşılı
 * https://guides.github.com/introduction/flow
 * https://guides.github.com/introduction/getting-your-project-on-github
 * https://guides.github.com/features/mastering-markdown/
+* https://dillinger.io
 * https://try.github.io
 
 ### Teşekkürler
