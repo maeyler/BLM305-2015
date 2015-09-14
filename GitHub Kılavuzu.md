@@ -2,7 +2,7 @@
 
 GitHub kullanmak için üç önemli sebep:
 * Yazdığınız ve kullandığınız kod merkezde dursun, her yerden erişilebilsin
-* Otomatik sürüm kontrolü ve koordineli takım çalışması imkanı
+* Otomatik sürüm kontrolü ve koordineli takım çalışması 
 * Programcılar için özgeçmişin önemli bir parçası
 
 Git'in akış ve dallanma mantığını anlamak için iyi bir başlangıç [burada](https://guides.github.com/introduction/flow/)
@@ -25,7 +25,7 @@ Mac ve Windows için yazılmış bu program ile Git kullanmak çok kolaylaştı
 
 Desktop programı öncesinde, bu adımları *Command line* içinde lokal klasör altında `git` komutu ile yapmak gerekiyordu
 
-Her işleme karşı gelen `git` komutu ile sürecin ne kadar basitleştiğini görebilirsiniz:
+Yukarıda anlatılan her işleme karşı gelen `git` komutu ile kıyaslayınca sürecin ne kadar basitleştiğini görebilirsiniz:
 * Klasörü programın açık penceresine sürükleyin   `git init`
 * "Uncommitted Changes" üstünde tıklayın   `git add *` (tam bunu yapmıyor)
 * ... yeni bir isim ile `Commit` düğmesine basın  `git commit -m "yeni bir isim"`
@@ -49,9 +49,9 @@ ama Desktop programı normal bir kullanıcının bütün ihtiyacını karşılı
 
 ### Teşekkürler
 
-* Gursu Gulcu 
+* Gürsu Gülcü 
 * [Hakan DILEK](https://github.com/hakandilek)
 * Ayla Gülcü
 * [Güngör Yılmaz](https://github.com/gungor)
  
-Eski öğrencilerim bu konuda bana öğretmen oldular :)
+Eski öğrencilerim bu konuda bana öğretmen oldular :smile:
