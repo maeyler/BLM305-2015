@@ -21,6 +21,12 @@ Mac ve Windows için yazılmış bu program ile Git kullanmak çok kolaylaştı
 İşimiz üç adımda bitti, projemiz hem yerel diskte hem de GitHub repository'de duruyor
 * Bunlardan biri değişince, `Sync` düğmesine basmak gerekiyor  **<-- Bu adım otomatik değil**
 
+### Markdown (MD) formatı
+
+HTML karmaşasını en sık kullanılan komutlarıyla basitleştiren 
+[MD formatını](https://guides.github.com/features/mastering-markdown/#examples) on dakikada öğrenmek ister misiniz?
+![](images/examples.PNG)
+
 ### Git CLI
 
 Desktop programı öncesinde, bu adımları *Command line* içinde lokal klasör altında `git` komutu ile yapmak gerekiyordu
@@ -38,14 +44,15 @@ ama Desktop programı normal bir kullanıcının bütün ihtiyacını karşılı
 
 ### Referanslar
 
-* forvo.com/word/github/
-* en.wikipedia.org/wiki/Git_(software)
-* github.com
-* desktop.github.com
-* guides.github.com
-* guides.github.com/introduction/flow
-* guides.github.com/introduction/getting-your-project-on-github
-* try.github.io
+* https://forvo.com/word/github/
+* https://en.wikipedia.org/wiki/Git_(software)
+* https://github.com
+* https://desktop.github.com
+* https://guides.github.com
+* https://guides.github.com/introduction/flow
+* https://guides.github.com/introduction/getting-your-project-on-github
+* https://guides.github.com/features/mastering-markdown/
+* https://try.github.io
 
 ### Teşekkürler
 
