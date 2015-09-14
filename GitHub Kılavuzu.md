@@ -47,3 +47,11 @@ ama Desktop programı normal bir kullanıcının bütün ihtiyacını karşılı
 * guides.github.com/introduction/getting-your-project-on-github
 * try.github.io
 
+### Teşekkürler
+
+* Gursu Gulcu 
+* [Hakan DILEK](https://github.com/hakandilek)
+* Ayla Gülcü
+* [Güngör Yılmaz](https://github.com/gungor)
+ 
+Eski öğrencilerim bu konuda bana öğretmen oldular :)
