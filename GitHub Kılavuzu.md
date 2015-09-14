@@ -1,4 +1,4 @@
-## GitHub Kılavuzu
+﻿## GitHub Kılavuzu
 
 GitHub kullanmak için üç önemli sebep:
 * Yazdığınız ve kullandığınız kod merkezde dursun, her yerden erişilebilsin
@@ -28,9 +28,9 @@ HTML karmaşasını en sık kullanılan komutlarıyla basitleştiren
 
 ![örnekler sayfası](images/examples.PNG)
 
-Markdown denemeleriniz için [bir çevirmen](http://dillinger.io/)
+Markdown denemeleriniz için [bir çevirmen](http://dillinger.io/) yararlı olacak
 
-### Git CLI
+### Git Command Line (CLI)
 
 Desktop programı öncesinde, bu adımları *Command line* içinde lokal klasör altında `git` komutu ile yapmak gerekiyordu
 
@@ -40,7 +40,7 @@ Yukarıda anlatılan her işleme karşı gelen `git` komutu ile kıyaslayınca s
 * ... yeni bir isim ile `Commit` düğmesine basın  `git commit -m "yeni bir isim"`
 * `git remote add origin https://github.com/maeyler/xxx.git` (remote repo'yu tanıtmak için)
 * `Publish` düğmesine basarak kendi GitHub hesabınıza ekleyin  `git push origin master`
-* `Sync` düğmesine basmek gerekiyor   `git push origin master; git pull`
+* `Sync` düğmesine basmak gerekiyor   `git push origin master; git pull`
 
 Git için [kısa bir özet](http://try.github.io) ve [kapsamlı bir kitap](https://git-scm.com/book/en/v2) var 
 ama Desktop programı normal bir kullanıcının bütün ihtiyacını karşılıyor
