@@ -4,7 +4,6 @@
 and [DiningPhilosophers.jar](https://github.com/maeyler/Frameworks/blob/master/DiningPhilosophers.jar?raw=true)
 * Start SSS and select `Chooser.runTeacher("String")`
 * Select the jar file, convert it to URL, and run DiningPhilosophers until deadlock occurs
-* Read  http://eyler.blogspot.com.tr/2004/12/neden-java.html
 ```
 f = Chooser.file(); //select DiningPhilosophers.jar
 i = f.toURI(); //--> file:/C:/java/jars/DiningPh...
@@ -13,4 +12,4 @@ Chooser.loadClass(u, "DiningPhilosophers");
 d = new DiningPhilosophers(5); 
 d.start();
 ```
-*This page was made by* [Dillinger](http://dillinger.io/)
+Read  http://eyler.blogspot.com.tr/2004/12/neden-java.html
