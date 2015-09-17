@@ -1,7 +1,7 @@
 ﻿## GitHub Kılavuzu
 
 GitHub kullanmak için üç önemli sebep:
-* Yazdığınız ve kullandığınız kod merkezde dursun, her yerden erişilebilsin
+* Projeniz bir bütün olarak bulutta, her yerden erişilebilir
 * Otomatik sürüm kontrolü ve koordineli takım çalışması 
 * Programcılar için özgeçmişin önemli bir parçası
 
@@ -23,8 +23,7 @@ Mac ve Windows için yazılmış bu program ile Git kullanmak çok kolaylaştı
 
 ### Markdown (MD) formatı
 
-HTML karmaşasını en sık kullanılan komutlarıyla basitleştiren 
-[MD formatını](https://guides.github.com/features/mastering-markdown/#examples) on dakikada öğrenmek ister misiniz?
+Karmaşık HTML sayfalarını basitleştiren [MD formatını](https://guides.github.com/features/mastering-markdown/#examples) on dakikada öğrenmek ister misiniz?
 
 ![örnekler sayfası](images/examples.PNG)
 
@@ -32,7 +31,7 @@ Markdown denemeleriniz için [bir çevirmen](http://dillinger.io/) yararlı olac
 
 ### Git Command Line (CLI)
 
-Desktop programı öncesinde, bu adımları *Command line* içinde lokal klasör altında `git` komutu ile yapmak gerekiyordu
+Desktop programı öncesinde, bu adımları *Command line* içinde yerel klasör altında `git` komutu ile yapmak gerekiyordu
 
 Yukarıda anlatılan her işleme karşı gelen `git` komutu ile kıyaslayınca sürecin ne kadar basitleştiğini görebilirsiniz:
 * Klasörü programın açık penceresine sürükleyin   `git init`
