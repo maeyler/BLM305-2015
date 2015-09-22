@@ -21,9 +21,17 @@ Mac ve Windows için yazılmış bu program ile Git kullanmak çok kolaylaştı
 İşimiz üç adımda bitti, projemiz hem yerel diskte hem de GitHub repository'de duruyor
 * Bunlardan biri değişince, `Sync` düğmesine basmak gerekiyor  **<-- Bu adım otomatik değil**
 
+### Commit, Branch, Pull Request, Merge
+
+Yerel bilgisayarda denemeleri yapıp çalışır duruma getirince `Commit` işlemini yapıyoruz. Dokümanlardaki "Kaydet" gibi bir işlem, tek farkı, bütün ayrıntılar kaydedildiği için eski bir duruma dönmek mümkün. `Commit` işlemlerinin çok sayıda olmasında korkmayın: Her Commit, programın bir tek özelliği üstünde çalışsa iyi olur.
+
+Yeni bir özellik denemek ya da takım çalışması yapmak için [dallanma](https://guides.github.com/introduction/flow) gerekiyor. Her dalı ayrı bir proje olarak düşünebiliriz. Desktop programında dal değiştirince, klasördeki dosyalar da uygun bir şekilde değişiyor, sadece o dala ait dosyalar görünüyor. Programın ana dalına `master` adı verilmiş. 
+
+Bir dal üstünde yeteri kadar çalışıp doğru işlediği görülünce, o dalın sahibi `Pull Request` yapıyor, projenin sahibi ya `Merge` ile yeni özellikleri programa ekliyor, ya da dalı silerek reddediyor. 
+
 ### Markdown (MD) formatı
 
-Karmaşık HTML sayfalarını basitleştiren [MD formatını](https://guides.github.com/features/mastering-markdown/#examples) on dakikada öğrenmek ister misiniz?
+Karmaşık HTML sayfalarını basitleştiren [MD formatını](https://guides.github.com/features/mastering-markdown/#examples) on dakikada öğrenmek ister misiniz? GitHub'da bu formatı kullanmak şart değil ama bunun gibi sayfaları düz metin gibi kolayca yazabilirsiniz.
 
 ![örnekler sayfası](images/examples.PNG)
 
@@ -35,14 +43,14 @@ Desktop programı öncesinde, bu adımları *Command line* içinde yerel klasör
 
 Yukarıda anlatılan her işleme karşı gelen `git` komutu ile kıyaslayınca sürecin ne kadar basitleştiğini görebilirsiniz:
 * Klasörü programın açık penceresine sürükleyin   `git init`
-* "Uncommitted Changes" üstünde tıklayın   `git add *` (tam bunu yapmıyor)
+* "Uncommitted Changes" üstünde tıklayın   `git add *` 
 * ... yeni bir isim ile `Commit` düğmesine basın  `git commit -m "yeni bir isim"`
 * `git remote add origin https://github.com/maeyler/xxx.git` (remote repo'yu tanıtmak için)
 * `Publish` düğmesine basarak kendi GitHub hesabınıza ekleyin  `git push origin master`
 * `Sync` düğmesine basmak gerekiyor   `git push origin master; git pull`
 
 Git için [kısa bir özet](http://try.github.io) ve [kapsamlı bir kitap](https://git-scm.com/book/en/v2) var 
-ama Desktop programı normal bir kullanıcının bütün ihtiyacını karşılıyor
+ama Desktop programı normal bir kullanıcının çoğu ihtiyacını karşılıyor. "Merge conflict" ya da "merge revert" durumlarında biraz Git bilmek gerekecektir.
 
 ### Referanslar
 
