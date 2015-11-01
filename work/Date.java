@@ -5,7 +5,7 @@ public class Date {
     public Date(int d, Month m, int y) {
         day = d; mon = m; year = y;
     }
-    public String toString() { // “Jan 1, 2105”
+    public String toString() { // "Jan 1, 2015"
         return mon+" "+day+", "+year;
     }
     public static void main(String[] args) {
