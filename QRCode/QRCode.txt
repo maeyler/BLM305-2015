@@ -1,0 +1,35 @@
+class java.io.File
+f = new File("QRCode", "core-2.2.jar");
+i = f.toURI(); 
+u = i.toURL();
+class mae.sss.Chooser
+Chooser.loadClass(u, "com.google.zxing.BarcodeFormat");
+QR = BarcodeFormat.QR_CODE; 
+L = Chooser.getLoader(QR);
+cc = new Chooser(L);
+g = new File("QRCode", "javase-2.2.jar");
+cc.addJarFile(g);
+
+//make QR file
+L.loadClass("com.google.zxing.MultiFormatWriter");
+mw = new MultiFormatWriter(); 
+b1 = mw.encode("Small is beautiful", QR, 200, 200);
+q1 = new File("images", "small.png"); 
+q1.exists(); //--> false
+L.loadClass("com.google.zxing.client.j2se.MatrixToImageWriter");
+MatrixToImageWriter.writeToFile(b1, "png", q1);
+q1.exists(); //--> true
+
+//read QR file
+L.loadClass("com.google.zxing.MultiFormatReader");
+mr = new MultiFormatReader();
+q2 = new File("images", "HW3.png");
+class javax.imageio.ImageIO
+img = ImageIO.read(q2);
+L.loadClass("com.google.zxing.client.j2se.BufferedImageLuminanceSource");
+src = new BufferedImageLuminanceSource(img);
+L.loadClass("com.google.zxing.common.HybridBinarizer");
+hb = new HybridBinarizer(src);
+L.loadClass("com.google.zxing.BinaryBitmap");
+b2 = new BinaryBitmap(hb);
+q = mr.decode(b2);
