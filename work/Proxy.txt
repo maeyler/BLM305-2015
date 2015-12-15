@@ -1,0 +1,35 @@
+//start with an empty set
+class java.util.HashSet
+//start with an empty set
+hs = new HashSet(); //--> []
+//make a proxy to hs
+class mae.util.ProxyMaker
+//make a proxy to hs
+ps = ProxyMaker.newProxy(hs); //--> []
+//add element to the set
+hs.add("S"); //--> true
+//add element to the proxy
+ps.add("M"); //--> true
+//add element to the proxy
+ps.add("S"); //--> false
+
+//now an object with GUI
+class mae.util.Small
+//now an object with GUI
+ss = new Small(); //--> @e22632
+//get the label
+lab = ss.getLabel(); //--> title
+//get MouseListeners for the label
+a = lab.getMouseListeners(); //--> MouseListener[1]
+//just one listener
+//we know where to find it
+class javax.swing.ToolTipManager
+//get the listener
+tm = ToolTipManager.sharedInstance(); 
+//remove the listener
+lab.removeMouseListener(tm);
+//make a proxy to it
+pm = ProxyMaker.newProxy(tm); 
+//put the proxy in place of the listener
+lab.addMouseListener(pm);
+
