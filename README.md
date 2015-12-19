@@ -1,6 +1,7 @@
-﻿## Software Frameworks
+## Software Frameworks
 
 2012'de açılan benzeri dersin web sayfası: (içerik biraz değişebilir)
+
 http://mimoza.marmara.edu.tr/~maeyler/course/cse495
 
 *Derse devam ve düzenli ödev yapmak gerekiyor*
