@@ -1,10 +1,11 @@
-SSS.exception
 # Java class files
 *.class
+SSS.exception
+tools.jar
 
 # Windows image file caches
 Thumbs.db
-ehthumbs.db
+thumbs.db
 
 # Folder config file
 Desktop.ini
